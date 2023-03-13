@@ -1,6 +1,7 @@
 import math
 import ru_local as ru
 
+print(ru.v_fuel_galons1)
 v_fuel_galons = float(input())
 v_fuel_litrs = v_fuel_galons * 3.785
 amount_barrels = math.ceil(v_fuel_galons / 19.5)
